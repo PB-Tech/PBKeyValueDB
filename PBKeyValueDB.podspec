@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '8.0'
-  s.frameworks = 'Foundation,sqlite3'
+  s.frameworks = 'Foundation'
+  s.library = 'sqlite3'
 
   s.source_files = 'src/**/*.{m,h}'
   s.public_header_files = 'src/**/*.h'
